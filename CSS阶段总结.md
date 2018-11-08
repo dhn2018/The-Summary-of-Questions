@@ -21,7 +21,7 @@
     2.  break-all：单词任意位置断行 
     3.  keep-all： 单词不断行 
 
-# 文本两端对齐
+## 文本两端对齐
 
 - 文本对齐方式text-align定义行内内容如何相对于它的块级父元素对齐， 
 __不是设置块元素本身对齐__
@@ -61,5 +61,14 @@ end： 内容为从左至右时，同right
 - 长度：line-height:20px; 直接设置
 - 百分比：line-height: 150%; 
 - 关键字：line-height:normal; 还有inherit、initial、unset，默认值normal取决于用户端、浏览器，约为1.2
+
+## 一个按钮的实现方式
+1. <imput type="button"/> 这就是一个按钮，但是点击没有回调
+2. <imput type="submit"/> 放在form表单中相当于提交按钮，点击提交表单
+3. button按钮             同2，放在form表单中点击提交表单，不同之处是它还可以包含图片等多媒体内容
+4. img、div、a、span等其他标签改装
+4种方式均为原生，都可以加背景
+    
+
 
 </font>
