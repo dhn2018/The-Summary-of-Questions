@@ -66,7 +66,7 @@ end： 内容为从左至右时，同right
 1. <imput type="button"/> 这就是一个按钮，但是点击没有回调
 2. <imput type="submit"/> 放在form表单中相当于提交按钮，点击提交表单
 3. button按钮             同2，放在form表单中点击提交表单，不同之处是它还可以包含图片等多媒体内容
-4. img、div、a、span等其他标签改装
+4. img、div、a、span等其他标签改装  
 4种方式均为原生，都可以加背景
     
 
