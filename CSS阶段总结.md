@@ -55,5 +55,11 @@ end： 内容为从左至右时，同right
     ```
     __注意：__ 后面加空行也没有效果，必须是空元素！
 
+### line-height
+行高有4种设置方式：
+- 数字：line-height:1; 表示行中文本高度的倍数，同line-height:1em;
+- 长度：line-height:20px; 直接设置
+- 百分比：line-height: 150%; 
+- 关键字：line-height:normal; 还有inherit、initial、unset，默认值normal取决于用户端、浏览器，约为1.2
 
 </font>
