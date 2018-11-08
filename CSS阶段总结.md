@@ -1,6 +1,6 @@
 <font size='4'>
 
-### white-space
+# white-space
 
 1. 设置如何处理元素中的空白
 2. 所有浏览器均支持，但均不支持其inherit属性
@@ -14,14 +14,14 @@
     pre-wrap | 保留 | 保留 | 转行
     pre-line | 保留 | 合并 | 转行
 
-### word-break
+# word-break
 
 -  设置怎么在单词内断行
     1.  normal: 使用默认的断行规则 
     2.  break-all：单词任意位置断行 
     3.  keep-all： 单词不断行 
 
-### 文本两端对齐
+# 文本两端对齐
 
 - 文本对齐方式text-align定义行内内容如何相对于它的块级父元素对齐， 
 __不是设置块元素本身对齐__
@@ -55,7 +55,7 @@ end： 内容为从左至右时，同right
     ```
     __注意：__ 后面加空行也没有效果，必须是空元素！
 
-### line-height
+# line-height
 行高有4种设置方式：
 - 数字：line-height:1; 表示行中文本高度的倍数，同line-height:1em;
 - 长度：line-height:20px; 直接设置
